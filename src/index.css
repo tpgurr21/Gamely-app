@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sidebar-icon {
+    @apply relative flex items-center text-left
+        h-6 w-6 my-2.5 ml-5 text-icon-color
+        hover:bg-white hover:text-leafly-green
+        transition-all duration-300 ease-linear cursor-pointer;
+  }
+  .sidebar-option {
+    @apply absolute w-auto p-2 m-2 min-w-max left-6 rounded-md
+     text-icon-color font-medium
+        hover:bg-white hover:text-leafly-green
+        transition-all duration-300 ease-linear cursor-pointer text-lg;
+  }
+  .feedback-icon {
+    @apply relative flex items-center text-left
+        h-6 w-6 my-2.5 ml-5 text-icon-color;
+  }
+  .feedback-option {
+    @apply absolute w-auto p-2 m-2 min-w-max left-6 rounded-md
+     text-icon-color text-lg font-medium;
+  }
+  .dropdown-icon {
+    @apply absolute left-52
+     text-icon-color;
+  }
+
+  /* ///////////////////////////////////////////////////// */
+
+  .bid-component {
+    @apply container gap-4 flex justify-items-start flex-col  flex-nowrap pl-8 relative left-80 top-20 border-2 rounded-lg w-3/5 h-60 bg-sidebar-bg shadow-md;
+  }
+
+  /* ///////////////////////////////////////////////////// */
+
+  .platinum-placement-text {
+    @apply font-medium mt-4 mb-2 text-sm
+     text-icon-color;
+  }
+  .platinum-placement-border {
+    @apply box-border border-solid border-2 px-2  border-background-color border-opacity-100 rounded-xl w-fit;
+  }
+
+  /* ///////////////////////////////////////////////////// */
+
+  .highest-bidder-text {
+    @apply font-medium mt-4 mb-2 text-sm
+     text-white;
+  }
+
+  .highest-bidder-border {
+    @apply box-border border-solid border-2 px-2 ml-3  border-leafly-green bg-leafly-green border-opacity-100 rounded-xl w-fit;
+  }
+
+  /* ///////////////////////////////////////////////////// */
+  .bid-amount-top-display {
+    @apply relative  font-medium text-xl
+     text-icon-color;
+  }
+  .bid-count {
+    @apply relative pl-7 font-medium text-[1.075rem]
+     text-icon-color;
+  }
+  .quick-bid {
+    @apply font-medium text-opacity-50 text-icon-color;
+  }
+
+  /* ////////////////////////////////////////////////// */
+
+  .bid-button {
+    @apply items-center text-icon-color  border-solid  border-2 rounded-md p-2 text-xl border-y-2 ;
+  }
+
+  .bid-amount-border {
+    @apply items-center border-solid border-2 border-y-2 py-1 px-5 mx-3 border-background-color bg-background-color bg-opacity-100 rounded-md;
+  }
+  .bid-amount-text {
+    @apply font-medium
+     text-icon-color text-xl;
+  }
+  .total-special-border {
+    @apply flex-grow ml-6 items-center border-solid border-4 px-4 py-1.5  border-gray-300 bg-gray-500 bg-opacity-100 rounded-md;
+  }
+  .total-border {
+    @apply ml-6 items-center border-solid border-2 px-3.5 py-1  border-gray-500 bg-gray-500 bg-opacity-100 rounded-md;
+  }
+  .total-text {
+    @apply font-medium text-center
+     text-white;
+  }
+
+  /* ////////////////////////////////////////////////// */
+
+  .inline-bid {
+    @apply inline-flex justify-center items-center;
+  }
+
+  #briefcase {
+    @apply relative left-1 top-0.5;
+  }
+
+  #deals {
+    @apply relative left-1;
+  }
+}
+
+/* ////////////////////////////////////////////////// */
+
+:root {
+  background-color: #f0f0f0;
+}
