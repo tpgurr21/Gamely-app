@@ -7,8 +7,8 @@ const Bids = () => {
       <div className="flex flex-col items-start space-y-2">
         <PlatinumPlacement placementText="Platinum Placement" placement="4" />
         <div className="inline-bid">
-          <BidAmount amount="$320" />
-          <BidCount  count="1" />
+          <BidAmount amount="$520" />
+          <BidCount  count="2" />
         </div>
       </div>
       <hr className="ml-[-2rem] w-50% relative border divide-black " />
@@ -17,7 +17,7 @@ const Bids = () => {
         <div className="inline-bid">
           <BidSlider
             minus={<AiOutlineMinus />}
-            amount={'$420'}
+            amount={'$620'}
             plus={<AiOutlinePlus />}
           />
           <BidTotal total={'$420'} />

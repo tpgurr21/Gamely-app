@@ -12,12 +12,12 @@ import { AiOutlineRise } from 'react-icons/ai';
 import { RiArrowDropDownLine } from 'react-icons/ri';
 import { BiBriefcase } from 'react-icons/bi';
 
-import LeaflyLogo from './LeaflyLogo';
+import GamelyLogo from './GamelyLogo';
 
 const SideBar = () => {
   return (
     <div className="bg-sidebar-bg fixed top-0 left-0 h-screen w-72 flex flex-col  shadow-lg border">
-      <LeaflyLogo />
+      <GamelyLogo />
       <SideBarIcon icon={<IoHomeOutline size="28" />} text={'Dashboard'} />
       <SideBarIcon
         icon={<IoMdSunny size="28" />}
@@ -69,10 +69,10 @@ const SideBar = () => {
         {/* <div className=" relative flex left-0 container  border rounded-smfont-light"> */}
         <Feedback icon={<VscMegaphone size="32" />} text={'Feedback'} />
         <p className="mb-2 pl-16">
-          Let us know your reaction to the new Leafly Biz.
+          Let us know your reaction to the new Gamely Biz.
         </p>
         <a
-          href="https://www.leafly.com/news/contact"
+          href="https://www.gamely.com/contact"
           className="underline font-medium my-4 pl-16 "
         >
           Provide Feedback

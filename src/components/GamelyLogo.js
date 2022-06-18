@@ -1,15 +1,16 @@
 import React from 'react';
+import home from '../Home';
 
-const LeaflyLogo = () => {
+const GamelyLogo = () => {
   return (
     <div>
       <h1 className="mt-3 mb-6 mr-1">
         {' '}
         <a
-          href="https://www.leafly.com/"
+          href="../pages/home"
           className="text-4xl text-left font-medium pl-10 pt-4 mb-8  text-leafly-green"
         >
-          Leafly.
+          Gamely.
           <span className="font-light text-leafly-green text-opacity-50">
             biz
           </span>
@@ -19,4 +20,4 @@ const LeaflyLogo = () => {
   );
 };
 
-export default LeaflyLogo;
+export default GamelyLogo;

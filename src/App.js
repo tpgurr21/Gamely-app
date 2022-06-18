@@ -5,7 +5,6 @@ import Bids2 from './components/Bids2';
 import Bids3 from './components/Bids3';
 import Bids4 from './components/Bids4';
 import Bids5 from './components/Bids5';
-import './App.css';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Bids3 />
         <Bids2 />
         <Bids />
-       
       </div>
     </div>
   );

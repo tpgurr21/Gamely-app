@@ -1,6 +1,7 @@
 import React from 'react';
-
+import BidSlider from './BidSlider';
 import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai';
+
 const Bids = () => {
   return (
     <div className="bid-component">
@@ -50,16 +51,18 @@ const BidCount = ({ count = '0' }) => (
 
 const QuickBid = () => <div className="quick-bid">Quick Bid</div>;
 
-const BidSlider = ({ minus, amount = '$0', plus }) => (
-  <div>
-    <button className="bid-button">{minus}</button>
-    <a className="bid-amount-border bid-amount-text">{amount}</a>
-    <button className="bid-button">{plus}</button>
-  </div>
-);
+// const BidSlider = ({ minus, amount = '$0', plus }) => (
+//   <div>
+//     <button className="bid-button">{minus}</button>
+//     <a className="bid-amount-border bid-amount-text">{amount}</a>
+//     <button className="bid-button">{plus}</button>
+//   </div>
+// );
 
 const BidTotal = ({ total }) => (
-  <div className="total-special-border total-border total-text">bid {total}</div>
+  <div className="total-special-border total-border total-text">
+    bid {total}
+  </div>
 );
 
 const SliderAmount = (amount = '0') => {

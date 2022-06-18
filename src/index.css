@@ -71,7 +71,7 @@
   /* ////////////////////////////////////////////////// */
 
   .bid-button {
-    @apply items-center text-icon-color  border-solid  border-2 rounded-md p-2 text-xl border-y-2 ;
+    @apply items-center text-icon-color  border-solid  border-2 rounded-md p-2 text-xl border-y-2;
   }
 
   .bid-amount-border {
@@ -106,6 +106,8 @@
     @apply relative left-1;
   }
 }
+
+
 
 /* ////////////////////////////////////////////////// */
 
