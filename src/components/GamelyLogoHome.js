@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
 const GamelyLogo = () => {
   return (
     <div>
@@ -9,7 +8,7 @@ const GamelyLogo = () => {
         {' '}
         <Link
           to="/bids"
-          className="text-4xl text-left font-medium pl-10 pt-4 mb-8  text-leafly-green"
+          className="text-8xl font-medium mb-8 hover:bg-opacity-25 hover:bg-gray-100 rounded-3xl text-leafly-green"
         >
           Gamely.
           <span className="font-light text-leafly-green text-opacity-50">
