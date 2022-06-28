@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import SideBar from './components/Sidebar';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
@@ -8,24 +8,16 @@ import Bids2 from './components/Bids2';
 import Bids3 from './components/Bids3';
 import Bids4 from './components/Bids4';
 import Bids5 from './components/Bids5';
+import BidContainer from './pages/BidContainer';
 
 function App() {
   return (
-    <div className="container">
-      <SideBar />
-      {/* <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes> */}
-      <div className="space-y-3">
-        <Bids5 />
-        <Bids4 />
-        <Bids3 />
-        <Bids2 />
-        <Bids />
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/bids" element={<BidContainer />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -4,10 +4,10 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
-      backgroundImage: {
+      backgroundImage: theme => ({
         // 'home-background': "url('\\\\images\\\\GamelyBackground.png')",
-        // 'home-background': "url('images/GamelyBackground.png')",
-      },
+        'home-background': "url('../src/images/GamelyBackground.png')",
+      }),
       colors: {
         'leafly-green': '#017C6B',
         'sidebar-bg': '#F6F6F6',

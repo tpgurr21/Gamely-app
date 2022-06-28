@@ -107,12 +107,13 @@
   }
 }
 
-
-
 /* ////////////////////////////////////////////////// */
+
+.home-logo {
+  @apply grid justify-center items-center align-middle ;
+}
 
 :root {
   background-color: #f0f0f0;
   /* background-image: 'home-background'; */
-
 }

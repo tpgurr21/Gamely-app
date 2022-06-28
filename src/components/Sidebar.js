@@ -74,12 +74,12 @@ const SideBar = () => {
         <p className="mb-2 pl-16">
           Let us know your reaction to the new Gamely Biz.
         </p>
-        <Link
+        {/* <Link
           to="../pages/Contact"
           className="underline font-medium my-4 pl-16 "
         >
           Provide Feedback
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
