@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import {
   IoHomeOutline,
@@ -13,6 +14,8 @@ import { RiArrowDropDownLine } from 'react-icons/ri';
 import { BiBriefcase } from 'react-icons/bi';
 
 import GamelyLogo from './GamelyLogo';
+// import Contact from '../pages/Contact';
+
 
 const SideBar = () => {
   return (
@@ -71,12 +74,12 @@ const SideBar = () => {
         <p className="mb-2 pl-16">
           Let us know your reaction to the new Gamely Biz.
         </p>
-        <a
-          href="https://www.gamely.com/contact"
+        <Link
+          to="../pages/Contact"
           className="underline font-medium my-4 pl-16 "
         >
           Provide Feedback
-        </a>
+        </Link>
       </div>
     </div>
   );

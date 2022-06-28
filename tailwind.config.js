@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'home-background': "url('\\\\images\\\\GamelyBackground.png')",
+        // 'home-background': "url('\\\\images\\\\GamelyBackground.png')",
+        // 'home-background': "url('images/GamelyBackground.png')",
       },
       colors: {
         'leafly-green': '#017C6B',

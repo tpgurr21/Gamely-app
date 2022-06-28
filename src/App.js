@@ -1,5 +1,8 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import SideBar from './components/Sidebar';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
 import Bids from './components/Bids';
 import Bids2 from './components/Bids2';
 import Bids3 from './components/Bids3';
@@ -10,6 +13,11 @@ function App() {
   return (
     <div className="container">
       <SideBar />
+      {/* <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes> */}
       <div className="space-y-3">
         <Bids5 />
         <Bids4 />

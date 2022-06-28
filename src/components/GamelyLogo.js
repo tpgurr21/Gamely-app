@@ -1,5 +1,5 @@
 import React from 'react';
-import home from '../Home';
+// import home from '../pages/Home';
 
 const GamelyLogo = () => {
   return (
