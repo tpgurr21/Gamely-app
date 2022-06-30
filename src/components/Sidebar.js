@@ -50,7 +50,7 @@ const SideBar = () => {
       />
       <SideBarIcon
         icon={<BsTags size="28" id="deals" />}
-        text={'Deals'}
+        text={'Transactions'}
         dropdown={<IoLogOutOutline size="26" id="briefcase" />}
       />
 
